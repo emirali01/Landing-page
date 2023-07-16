@@ -1,0 +1,163 @@
+/* styles.css */
+
+body{
+    background-color: yellow;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: purple;
+    border: none;
+    background-color: yellow;
+}
+
+.cat {
+    display: flex;
+    color: purple;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    gap: 100px;
+}
+
+.cat-main-div {
+    flex-basis: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-btn {
+    color: purple;
+    border-color: purple;
+    border-radius: 8px;
+    padding: 5px 25px;
+    font-size: 15px;
+    width: 200px;
+    margin-left: 200px;
+}
+
+.info {
+    align-items: center;
+    color: purple;
+}
+
+.about {
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid purple;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.one {
+    width: 150px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.two {
+    width: 150px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: yellow;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 30px;
+    color: yellow;
+}
+
+.donation {
+    background-color: yellow;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border color: purple;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+.text p {
+    color: purple;
+    margin: 5px 30px 30px 50px;
+    font-size: 25px;
+}
+
+.donation button {
+    color: purple;
+    border-color: purple;
+    border-radius: 8px;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: purple;
+    color: yellow;
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 5px 25px;
+    width: 500px;
+    text-align: center;
+    margin-left: 700px;
+}
